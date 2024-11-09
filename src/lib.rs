@@ -154,7 +154,7 @@ impl Default for ThirdPersonCamera {
 pub struct Zoom {
     pub min: f32,
     pub max: f32,
-    radius: f32,
+    pub radius: f32,
     radius_copy: Option<f32>,
 }
 
